@@ -24,7 +24,7 @@ public class test1_VerifyTitle extends Base
 	{
 		
 		logger=report.startTest("VerifyBlogTitle");
-
+		logger.assignCategory("test1");
 		driver=new FirefoxDriver();
 
 		driver.manage().window().maximize();
